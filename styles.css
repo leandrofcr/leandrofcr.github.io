@@ -2,12 +2,15 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.58em;
+    text-align:justify ;
  
 }
  
 .picture{
     border-radius: 30px;
+    
 }
+
 .hero-title{
     background-color: #406E8E;
     padding: 2%;
@@ -16,6 +19,11 @@ a {
     text-decoration: none;
     color: black;
     font-weight: 400;
-    font-style: italic;
+    font-weight: 700;
 }
+.link{
+    color:#58a6ff;
+    font-style: bold;
+    text-decoration: underline;
 
+}
