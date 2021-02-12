@@ -1,0 +1,58 @@
+body { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.58em;
+    /* color:#212529; */
+    background-color: #212529; /*for dark theme*/ 
+    color: whitesmoke;  /*for dark theme*/
+    color#;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+
+ }
+ 
+.picture{
+    width: 550px;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+.logo {
+    width: 30px;
+    border-radius: 30px;
+}
+
+.hero-title{
+    background-color: #406E8E;
+    padding: 2%;
+}
+a {
+    text-decoration: none;
+    color: #58a6ff;
+    font-weight: 400;
+    font-weight: 700;
+}
+.link{
+    color:#58a6ff;
+    font-style: bold;
+    text-decoration: underline;
+
+}
+
+hr{
+    border: 1px solid #343a40;
+}
+ h4 {
+
+    color:#8ea8c3 ;
+    /* color:#23395B; */
+ }
+ li {
+     color:white;
+     /* color: #23395B; */
+ }
+ 
+ 
