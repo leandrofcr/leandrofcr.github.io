@@ -1,71 +1,67 @@
+
+/*design inspirado no colega de turma Aladino Borges
+dispon[ivel em: https://aladinoborges.github.io/portfolio/
+ou  https://github.com/AladinoBorges/portfolio   :D */
+
 body { 
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.58em;
     color:#212529;
     padding: 0px;
     margin: 0px;
-    margin-left: 30px;
-    /* background-color: #212529; */ /*for dark theme*/ 
-    /* color: whitesmoke; for dark theme */  
-   
- }
-
- a {
-    text-decoration: none;
-    color: #58a6ff;
-    font-weight: 400;
-    font-weight: 700;
+  
 }
-
- .hero-title{
-    background-color: #406E8E;
-    padding: 2%;
-}
- 
-.img{
-    width: 300px;
-    border-radius: 50%;
-    border: 2px solid #23395B;
-    /*margin-left: 5%;
-     margin-bottom: 30px;  
-    margin-top: 30px;    
+ .img{
+    width: 400px;
+    border-radius:50%;
+    border: 0px solid #23395B;
     display: block;
-    padding: 30px,40px;
-    float:left;    */
-}
-
-.welcome{
-    float:right;
-    margin-right: 3%;
-    width: 1000px;
-    font-size: 23px;
-    
+    margin: auto;
+         
 }
 
 .menu{
-    display: inline;
-    background-color: red;
-
-
+    text-align: center;
+    background-color: #0d1b2a;
+    padding: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+    
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.logo {
-    width: 30px;
-    border-radius: 30px;
+.button{
+    color: #e0e1dd;
+    background-color: #415a77;
+    padding: 7px;
+    border-radius: 7px;
+    margin-left: 15px;
+    margin-top: 10px;
 }
 
+.button:hover{
+    background-color: #778da9;
+    color:#fff;
+    
+    
+}
+.button:active{
+    background-color: #e0e1dd;
+    color:#0d1b2a;
+    
+}
+
+.welcome{
+    background-color:#0d1b2a;
+    padding: 2%;
+    margin-top: 0px;
+}
+
+.welcome-text{
+    color:#fff;
+    font-size: 18px;
+    text-align: center;
+}
 
 a {
     text-decoration: none;
@@ -73,24 +69,54 @@ a {
     font-weight: 400;
     font-weight: 700;
 }
-.link{
-    color:#58a6ff;
-    font-style: bold;
-    text-decoration: underline;
-
+#issue:hover{
+    text-decoration:underline;
+    color: coral;
+   
 }
 
-hr{
-    border: 1px solid #343a40;
+.logo {
+    width: 25px;
+    border-radius: 30px;
+    padding: 2px;
+    background-color: #fff;
 }
- h4 {
+.logo:hover{
+    background-color: #415a77;
+}
+
+.social{
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;    
+}
+
+.icon{
+    width: 25px;
+    border-radius: 30px;
+}
+h4{
+    font-size: 20px;
+}
+
+ h4, li {
 
     /* color:#8ea8c3 ; */
     color:#23395B;
  }
- li {
-     /* color:white; */
-     color: #23395B;
- }
  
+ .texts{
+    margin-left: 20px;
+    max-width: 95%;
+ }
+ .return-button{
+     text-align: center;
+
+ }
+ .signature{
+    font-size: 15px;
+    color: #9798a5;
+    text-align: right;
+    
+ }
  
