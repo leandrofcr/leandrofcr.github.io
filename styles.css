@@ -10,6 +10,7 @@ body {
     color:#212529;
     padding: 0px;
     margin: 0px;
+    background-color: #0d1b2a;
   
 }
  .img{
@@ -42,6 +43,7 @@ body {
 .button:hover{
     background-color: #778da9;
     color:#fff;
+    text-decoration: none;
     
     
 }
@@ -69,7 +71,7 @@ a {
     font-weight: 400;
     font-weight: 700;
 }
-#issue:hover{
+a:hover{
     text-decoration:underline;
     color: coral;
    
@@ -103,20 +105,35 @@ h4{
 
     /* color:#8ea8c3 ; */
     color:#23395B;
+    margin-top: ;
  }
  
- .texts{
-    margin-left: 20px;
-    max-width: 95%;
- }
+ 
  .return-button{
      text-align: center;
 
  }
  .signature{
-    font-size: 15px;
-    color: #9798a5;
+    font-size: 13px;
+    color: #406e8e;
     text-align: right;
     
  }
+ .content{
+     background-color: #fff;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 1%;
+     max-width: 95%
+ }
  
+ .footer{
+    background-color: #0d1b2a;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    font-size: 14px;
+    
+ }
+ 
+ }
