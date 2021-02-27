@@ -1,0 +1,144 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.58em;
+  color: rgb(33, 37, 41);
+  margin-top: 0;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: rgb(13, 27, 42);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+#minha_foto {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  margin-top: 50px;
+  border: solid 1px rgb(13, 27, 42);
+}
+
+.listas {
+  display: block;
+  position: static;
+}
+
+.aprendidas {
+  float: left;
+  margin-left: 30%;
+}
+
+.a-aprender {
+  float: right;
+  margin-right: 30%;
+}
+
+.lado-esquerdo {
+  max-width: 40%;
+  float: left;
+  margin-left: 5%;
+}
+
+.lado-direito {
+  float: right;
+  max-width: 40%;
+  margin-right: 5%;
+}
+
+.text-content {
+  clear: both;
+  height: 300px;
+  background-color: rgb(13, 27, 42);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+footer {
+  clear: both;
+  margin-top: 100px;
+  border: solid 1px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#assign {
+  text-align: right;
+  font-size: 14px;
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(88, 166, 255);
+  font-weight: 600;
+}
+
+a:hover {
+  color: rgb(255, 102, 0);
+  text-decoration: underline;
+}
+
+.button {
+  color: white;
+  background-color: rgb(13, 27, 42);
+  padding: 10px 15px;
+  border-radius: 7px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: rgb(119, 141, 169);
+  color: white;
+  text-decoration: none;
+}
+
+.button:active {
+  background-color: rgb(224, 225, 221);
+  color: rgb(255, 102, 0);
+}
+
+.navigation {
+  margin-top: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.formacao {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-spacing: 5px;
+  border: 1px solid rgb(13, 27, 42);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.formacao p {
+  font-weight: 600;
+  color: rgb(13, 27, 42);
+}
+
+table {
+  border-collapse: separate;
+}
+
+.table-title {
+  font-weight: 600;
+  color: rgb(13, 27, 42);
+}
