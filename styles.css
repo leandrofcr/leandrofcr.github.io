@@ -4,15 +4,16 @@ dispon[ivel em: https://aladinoborges.github.io/portfolio/
 ou  https://github.com/AladinoBorges/portfolio   :D */
 
 body { 
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.58em;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-size: 16px; */
+    /* line-height: 1.58em; */
     color:#212529;
-    padding: 0px;
-    margin: 0px;
-    background-color: #0d1b2a;
+    /* padding: 0px; */
+    /* margin: 0px; */
+    background-color: #212935;
   
 }
+/* 
  .img{
     width: 350px;
     border-radius:50%;
@@ -103,7 +104,7 @@ h4{
 
  h4, li {
 
-    /* color:#8ea8c3 ; */
+    /* color:#8ea8c3 ; 
     color:#23395B;
     margin-top: ;
  }
@@ -136,4 +137,4 @@ h4{
     
  }
  
- }
+ } */
